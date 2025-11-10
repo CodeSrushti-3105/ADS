@@ -69,7 +69,7 @@ void graph::display() {
     cout << "\n--- Flight Details ---\n";
     flight* temp = head;
     while (temp) {
-        cout << temp->src << " → " << temp->dest
+        cout << temp->src << " -> " << temp->dest
              << " | Time: " << temp->time << " hrs"
              << " | Fuel: " << temp->fuel << " L\n";
         temp = temp->next;

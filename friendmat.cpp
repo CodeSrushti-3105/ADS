@@ -107,7 +107,7 @@ void graph::allconnected() {
     bool hasFriends = false;
     for (int j = 0; j < n; j++) {
         if (friends[a_index][j] == 1) {
-            cout << "→ " << users[j] << endl;
+            cout << "->" << users[j] << endl;
             hasFriends = true;
         }
     }
